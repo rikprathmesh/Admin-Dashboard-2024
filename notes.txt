@@ -1,0 +1,11 @@
+need to checkout react table video tutorial of 6 pack programmer
+need to checkout formik for creating forms 
+
+What is a React element?
+React Element
+
+It is the basic building block in a react application, it is an object representation of a virtual DOM node. React Element contains both type and property. It may contain other Elements in its props. React Element does not have any methods, making it light and faster to render than components.
+
+What is the useCallback hook? The useCallback hook is a built-in hook in React that lets you memoize a callback function by preventing it from being recreated on every render. In simple terms, it means that the callback function is cached and does not get redefined on every render.
+
+in products page create button which goes to last page and first page task check out 3:35:00
