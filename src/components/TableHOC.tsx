@@ -39,7 +39,7 @@ function TableHOC<T extends Object>(
       previousPage,
       canNextPage,
       canPreviousPage,
-      gotoPage,
+      // gotoPage,
     } = table;
     return (
       <div className={containerClassName}>

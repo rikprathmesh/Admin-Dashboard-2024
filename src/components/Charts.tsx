@@ -154,7 +154,7 @@ interface PieChartProps {
   labels: string[];
   data: number[];
   backgroundColor: string[];
-  legends?: boolean;
+  // legends?: boolean;
   offset?: number[];
 }
 
@@ -162,7 +162,7 @@ export const PieChart = ({
   labels,
   data,
   backgroundColor,
-  legends = true,
+  // legends = true,
   offset,
 }: PieChartProps) => {
   const pieChartData: ChartData<"pie", number[], string> = {

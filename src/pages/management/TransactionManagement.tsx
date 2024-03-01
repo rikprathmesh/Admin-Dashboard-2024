@@ -48,8 +48,11 @@ const TransactionManagement = () => {
     shippingCharges,
     tax,
     total,
-    _id,
+    // _id,
   } = order;
+  
+  console.log(order.orderItems, 'order items');
+  
 
   const updateHandler = () => {
     setOrder(prev => (
