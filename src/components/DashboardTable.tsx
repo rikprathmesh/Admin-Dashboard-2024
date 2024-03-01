@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import TableHOC from "./TableHOC";
 import { Column } from "react-table";
 
